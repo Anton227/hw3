@@ -14,7 +14,7 @@
 	width: 100px;
 	height: 1000px;
 	background-color: lightgrey;
-	float: left;
+	float: right;
 }
 .logo {
 	margin-left: 80px;
@@ -24,49 +24,63 @@
 	background-color: grey;
 	margin-left:80px;
 	margin-top: 20px;
-	padding: 10px;
-	width: 990px;
+	/*padding: 10px;*/
+	width: 1010px;
 }
-.main {
+.main-menu li{
 	display: inline-block;
-	width: 100px;
-	color:white;
+	background:grey;
+	width: 120px;
+	padding: 10px 0;
 	font-size:15px;
 	font-family: sans-serif;
 	text-align: center;
 }
+.main-menu a{
+	text-decoration: none;
+	color: white;
+}
+.main-menu li :hover{
+	background: black;
+}
 .left-menu{
 	margin-left: 80px;
-	margin-top: 20px;
-	width:200px; 
+	margin-top: 35px;
+	width:220px; 
 	float: left;
-}
-.left{
-	display: inline-block;
-	width: 200px;
-	height: 35px;
-	color:black;
+} 
+.left-menu li a{
+	display: block;
+	text-decoration: none;
+	border: 1px solid grey;
+	padding:10px;
+	color: grey;
 	font-size: 15px;
 	font-family: sans-serif;
-	text-align: left;
+}
+.left-menu li :hover{
+	background: lightgrey;
+	color: black;
 }
 .image{
-	margin-top: 20px;
-	margin-left: 20px;
-	width: 770px;
+	margin-top: 35px;
+	margin-left: 60px;
+	width: 725px;
+	border: 1px solid grey;
 }
 .text{
-	margin-left: 300px;
+	margin-left: 400px;
 	margin-top: 20px;
-	margin-right: 80px;
+	margin-right: 75px;
 	font-size: 15px;
 	font-family: sans-serif;
 }
 .bottom {
-	background-color: lightgrey;
-	color: black;
+	background-color: lightgrey ;
 }
-.last{
-	width: 550px;
-	text-align: right;
+.bottom li{
+	color:black;
+	border:none;
+	background: lightgrey;
 }
+
