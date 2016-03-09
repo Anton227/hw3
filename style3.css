@@ -1,0 +1,116 @@
+.content {
+	width: 1049px;
+	height: 950px;
+	background-color: white;
+	float:left;
+}
+.side-left {
+	width: 150px;
+	height: 950px;
+	background-color: lightgrey;
+	float:left;
+}
+.side-right {
+	width: 150px;
+	height: 950px;
+	background-color: lightgrey;
+	float: right;
+}
+.logo {
+	margin-left: 40px;
+	margin-top: 50px;
+}
+
+/*главное меню*/
+.main-menu{
+	background-color: grey;
+	margin-left:40px;
+	margin-top: 35px;
+	width: 965px;
+}
+.main-menu li{
+	display: inline-block;
+	background:grey;
+	width: 120px;
+	padding: 15px 0;
+	font-size:15px;
+	font-family: sans-serif;
+	text-align: center;
+}
+.main-menu a{
+	text-decoration: none;
+	color: white;
+}
+.main-menu li:hover{
+	background: black;
+}
+
+/*нижнее меню*/
+.bottom{
+	margin-left: 40px;
+	margin-top: 60px;
+	width: 970px;
+}
+.bottom li{
+	display: inline-block;
+	background: lightgrey;
+	width: 120px;
+	padding:15px 0;
+	font-size: 13px;
+	font-family: sans-serif;
+	text-align: center;
+}
+.bottom a{
+	text-decoration: none;
+	color: black;
+}
+#right {
+	width: 460px;
+	text-align: right;
+	padding-right: 25px;
+	text-decoration: none;
+}
+.bottom li:hover{
+	text-decoration: underline;
+}
+/*левое меню*/
+.left-menu{
+	margin-left: 40px;
+	margin-top: 35px;
+	width:235px; 
+	float: left;
+} 
+.left-menu li a{
+	display: block;
+	text-decoration: none;
+	border: 1px solid grey;
+	padding:13px 20px 13px;
+	color: grey;
+	font-size: 13px;
+	font-family: sans-serif;
+}
+.left-menu li :hover{
+	background: lightgrey;
+	color: black;
+	padding-left: 40px;
+}
+
+/*картинка*/
+.image{
+	margin-top: 45px;
+	margin-left: 50px;
+	width: 475px;
+	padding: 50px 100px 60px;
+	border: 1px solid grey;
+}
+
+/*текст под картинкой*/
+.text{
+	margin-left: 350px;
+	margin-top: 20px;
+	margin-right: 85px;
+	font-size: 14px;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
